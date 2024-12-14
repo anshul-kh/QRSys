@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import { db } from "../../firebase";  // Import Firestore functions
 import { collection, getDocs } from "firebase/firestore";
 import { Card, CardHeader, CardTitle, CardContent, CardFooter } from "@/components/ui/card";  // Shadcn Card components
-import { Button } from "./ui/button";  // Assuming Button component is present
 import { Label } from "./ui/label";  // Assuming Label component is present
 
 export default function Dashboard() {

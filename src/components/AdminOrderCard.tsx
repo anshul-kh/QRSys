@@ -26,7 +26,7 @@ export function CardWithForm({
   title: string;
   description: string;
   price: string;
-  update: React.Dispatch<React.SetStateAction<any[]>>; // Update function passed from parent
+  update: any; // Update function passed from parent
 }) {
   const [isDeleting, setIsDeleting] = React.useState(false);
 

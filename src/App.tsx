@@ -1,10 +1,7 @@
 import { useEffect, useState } from "react";
-import { DialogBox } from "./components/Dialog";
+
 import Header from "./components/Header";
-import QR from "./components/QR";
-import { AppSidebar } from "./components/Sidebar";
-import { SidebarProvider } from "./components/ui/sidebar";
-import { CardWithForm } from "./components/AdminOrderCard";
+
 import { collection, getDocs } from "firebase/firestore";
 import { db } from "../firebase";
 import { HomeCard } from "./components/HomeCard";
